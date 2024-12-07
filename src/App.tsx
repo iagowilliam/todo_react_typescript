@@ -11,6 +11,7 @@ import styles from './App.module.css'
 
 // interface 
 import { ITask } from './interfaces/Task'
+import Modal from './components/Modal'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <div>
+        <Modal />
         <Header />
         <main className={styles.main}>
           <div>
